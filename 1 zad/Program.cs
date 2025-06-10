@@ -12,10 +12,6 @@ namespace _1_zad
         {
 
 
-
-
-
-
             string input = Console.ReadLine().ToLower();
 
             string[] words = input.Split(' ');
@@ -42,9 +38,6 @@ namespace _1_zad
                 if (pair.Value % 2 == 1) 
                     results.Add(pair.Key);
             }
-
-
-
             Console.WriteLine(string.Join(", ", results));
 
 
