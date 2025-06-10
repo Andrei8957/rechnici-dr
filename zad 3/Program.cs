@@ -11,7 +11,6 @@ namespace zad_3
         static void Main(string[] args)
         {
             Dictionary<string, int> ukazatel = new Dictionary<string, int>();
-            string[] tyrsene;
             while (true)
             {
                 string ruda = Console.ReadLine();
